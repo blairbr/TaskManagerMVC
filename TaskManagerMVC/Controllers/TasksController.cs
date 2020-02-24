@@ -25,13 +25,21 @@ namespace TaskManagerMVC.Controllers
         // GET: Tasks
         // Displays all tasks in the database. The method gets a list of tasks from the Tasks entity set 
         // by reading the Tasks property of the database context instance.
-        public async Task<IActionResult> Index(string sortOrder)
+        public async Task<IActionResult> Index(string sortOrder, string searchString)
         {
             ViewData["DescriptionSortParm"] = String.IsNullOrEmpty(sortOrder) ? "description_desc" : "";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
             ViewData["CompletedSortParm"] = sortOrder == "completed_desc" ? "description_desc" : "completed_desc";
+            ViewData["CurrentFilter"] = searchString;
+
             var tasks = from s in _context.Tasks
                            select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                tasks = tasks.Where(t => t.Description.Contains(searchString));
+            }
+
             switch (sortOrder)
             {
                 case "completed_asc":

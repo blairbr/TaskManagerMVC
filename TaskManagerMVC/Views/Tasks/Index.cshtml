@@ -3,9 +3,16 @@
 @{
     ViewData["Title"] = "Task List";
 }
-
 <h1>Task List</h1>
-
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+            <input type="submit" value="Search" class="btn btn-outline-primary" /> |
+            <a class="btn btn-outline-dark" asp-action="Index">Back to Full List</a>
+        </p>
+    </div>
+</form>
 <p>
     <a class="btn btn-outline-primary" asp-action="Create">Create New</a>
 </p>
