@@ -16,6 +16,7 @@ namespace TaskManagerMVC.Data
                 return;
             }
 
+            // added some tasks to seed db
             var tasks = new Models.Task[]
             {
             new Models.Task{Description="Do Laundry",CompletionStatus=true,DueDate=DateTime.Parse("2020-09-01")},

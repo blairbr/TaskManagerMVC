@@ -2,7 +2,6 @@ C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\bin\Debug\netcoreapp3.
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\bin\Debug\netcoreapp3.1\TaskManagerMVC.exe
-C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.csprojAssemblyReference.cache
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.RazorAssemblyInfo.cache
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.RazorAssemblyInfo.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.AssemblyInfoInputs.cache
@@ -11,7 +10,6 @@ C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.TagHelpers.output.cache
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.RazorCoreGenerate.cache
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -159,6 +157,6 @@ C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\bin\Debug\netcoreapp3.
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Tasks\Create.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Tasks\Delete.cshtml.g.cs
-C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Tasks\Details.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Tasks\Edit.cshtml.g.cs
 C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\Razor\Views\Tasks\Index.cshtml.g.cs
+C:\Users\Blair\source\repos\TaskManagerMVC\TaskManagerMVC\obj\Debug\netcoreapp3.1\TaskManagerMVC.csprojAssemblyReference.cache
