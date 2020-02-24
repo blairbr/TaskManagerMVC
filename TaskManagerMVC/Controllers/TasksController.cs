@@ -29,7 +29,7 @@ namespace TaskManagerMVC.Controllers
         {
             ViewData["DescriptionSortParm"] = String.IsNullOrEmpty(sortOrder) ? "description_desc" : "";
             ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
-            ViewData["CompletedSortParm"] = sortOrder == "completed_desc" ? "description_desc" : "completed_desc";
+            ViewData["CompletedSortParm"] = sortOrder == "completed_desc" ? "completed_asc" : "completed_desc";
             ViewData["CurrentFilter"] = searchString;
 
             var tasks = from s in _context.Tasks
